@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [https://github.com/anerpeco/fylo-landing-page-with-two-column-layout]
+- Live Site URL: [https://fylo-landing-page-with-two-column-layout-anerpeco.vercel.app/]
 
 ## My process
 

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- ============= Start HEADER ============== -->
+
+    <header class="header">
+      <a href="#" class="header__logo"
+        ><img src="./images/logo.svg" alt="Fylo logo"
+      /></a>
+      <nav class="navbar" aria-label="Main">
+        <ul class="navbar__list">
+          <li class="navbar__item">Features</li>
+          <li class="navbar__item">Team</li>
+          <li class="navbar__item">Sign In</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ============= End HEADER ============== -->
+
+    <!-- ============= Start MAIN ============== -->
+    <main>
+      <div class="main-container">
+        <!-- ============= Start intro section ============== -->
+        <section class="intro">
+          <img
+            class="intro__img"
+            src="./images/illustration-1.svg"
+            alt=""
+            aria-hidden="true"
+          />
+          <div class="intro__content">
+            <h1 class="intro__title">
+              All your files in one secure location, accessible anywhere.
+            </h1>
+            <p class="intro__description">
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+          </div>
+          <form action="#" class="intro__form form_i">
+            <label for="email" hidden>Email:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email..."
+              class="intro__input"
+              required
+            />
+            <p class="intro__error-message">Please check your email!</p>
+            <button type="submit" class="intro__btn">Get Started</button>
+          </form>
+        </section>
+        <!-- ============= End intro section ============== -->
+
+        <div class="bg-curve"></div>
+
+        <!-- ============= Start feature section ============== -->
+        <section class="feature">
+          <img
+            class="feature__img"
+            src="./images/illustration-2.svg"
+            alt=""
+            aria-hidden="true"
+          />
+          <div class="feature__content">
+            <h2 class="feature__title">Stay productive, wherever you are</h2>
+            <p class="feature__description">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p class="feature__description">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </p>
+            <a href="#" class="feature__link"> See how Fylo works </a>
+          </div>
+          <figure class="testimonial">
+            <figcaption class="testimonial__author">
+              <img
+                src="./images/avatar-testimonial.jpg"
+                alt="Kyle Burton"
+                class="testimonial__image"
+              />
+              <div class="testimonial__info">
+                <b class="testimonial__name">Kyle Burton</b><br />
+                <small class="testimonial__title">Founder & CEO, Huddle</small>
+              </div>
+            </figcaption>
+            <blockquote class="testimonial__content">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </blockquote>
+          </figure>
+        </section>
+        <!-- ============= End feature section ============== -->
+
+        <!-- ============= Start sign-up section ============== -->
+        <section class="sign-up">
+          <div class="sign-up__content">
+            <h2 class="sign-up__title">Get early access today</h2>
+            <p class="sign-up__description">
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
+          <form action="#" class="intro__form form-sign-up">
+            <label for="email" hidden>Email:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email..."
+              class="intro__input su-input"
+              required
+            />
+            <p class="intro__error-message su-error-message">
+              Please check your email!
+            </p>
+            <button type="submit" class="intro__btn intro__btn--small su-btn">
+              Get Started For Free
+            </button>
+          </form>
+        </section>
+        <!-- ============= End sign-up section ============== -->
+      </div>
+    </main>
+    <!-- ============= End MAIN ============== -->
+
+    <!-- ============= Start FOOTER ============== -->
+    <footer class="footer">
+      <a class="footer__logo" href="#"
+        ><img src="./images/logo.svg" alt="Fylo logo"
+      /></a>
+      <address>
+        <ul class="company-info">
+          <li class="company-info-list company-info-tel">
+            <img src="./images/icon-phone.svg" alt="" aria-hidden="true" />
+            <a href="tel:+15431234567">+1-543-123-4567</a>
+          </li>
+          <li class="company-info-list company-info-email">
+            <img src="./images/icon-email.svg" alt="" aria-hidden="true" />
+            <a href="mailto:example@fylo.com">example@fylo.com</a>
+          </li>
+        </ul>
+      </address>
+      <nav>
+        <ul class="company-links">
+          <div class="links-one">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+          </div>
+          <div class="links-two">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+          </div>
+        </ul>
+      </nav>
+      <div class="socials">
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+      </div>
+    </footer>
+  </body>
+</html>
